@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7913702940:AAGhKg7JJ12DftOMD2P-hCyjfpC2oJm
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/d982fefc077ad0ac0255f.jpg')).split()
+PICS = (environ.get('PICS', 'https://i.ibb.co/Y74vvDMp/x.jpg https://i.ibb.co/Xk51HH3z/x.jpg https://i.ibb.co/MxVnwCg9/x.jpg https://i.ibb.co/84Bm8GCg/x.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/fe628eed9d16ebab4bce7.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/14ca5674072491cda2d59.jpg")
@@ -58,7 +58,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Your_Movie_Link_8')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Ak9u-iW4Lps5MjFl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Hindi_movie_uplod')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Hindi_movie_uplod/36')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
